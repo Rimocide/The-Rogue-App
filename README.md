@@ -33,16 +33,22 @@ This is a Node.js backend for a Todo app that leverages Firebase for authenticat
    cd firebase-todo-backend
    ```
 
-2. **Install Dependencies:**
+2. **Initialize the Project:**
+
+   ```bash
+   npm init -y
+   ```
+
+3. **Install Dependencies:**
 
    ```bash
    npm install express firebase-admin firebase dotenv
    ```
 
-3. **Setup Environment Variables:**
+4. **Setup Environment Variables:**
 
    Create a `.env` file in the root directory and configure it as follows:
-
+  
      ```env
     FIREBASE_API_KEY=your_api_key_here
     FIREBASE_AUTH_DOMAIN=your-project-id.firebaseapp.com
@@ -64,12 +70,11 @@ This is a Node.js backend for a Todo app that leverages Firebase for authenticat
     
     # Server Configuration
     PORT=5000
-
-   ```
+     ```
 
    Replace placeholders with actual values from Firebase.
 
-4. **Run the Server:**
+5. **Run the Server:**
 
    ```bash
    node server.js
@@ -177,4 +182,7 @@ This is a Node.js backend for a Todo app that leverages Firebase for authenticat
 
 This project was constructed with the assistance of generative AI (mainly ChatGPT). Significant efforts were made to understand Firebase integration and backend development fundamentals thoroughly.
 
+## License
+
+This project is licensed under the MIT License.
 
