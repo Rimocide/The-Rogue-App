@@ -182,7 +182,5 @@ This is a Node.js backend for a Todo app that leverages Firebase for authenticat
 
 This project was constructed with the assistance of generative AI (mainly ChatGPT). Significant efforts were made to understand Firebase integration and backend development fundamentals thoroughly.
 
-## License
 
-This project is licensed under the MIT License.
 
