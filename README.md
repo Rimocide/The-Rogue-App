@@ -170,7 +170,7 @@ This is a Node.js backend for a Todo app that leverages Firebase for authenticat
 1. **Obtain a Firebase ID Token** by logging in.
 2. **Set Authorization Header:**
    - Key: `Authorization`
-   - Value: `Bearer YOUR_FIREBASE_ID_TOKEN`
+   - Value: `YOUR_FIREBASE_ID_TOKEN`
 3. **Test Endpoints** using the provided requests.
 
 ## Stopping and Restarting the Server
